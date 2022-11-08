@@ -1,4 +1,4 @@
-## Pasos para probar la aplicacion (version de Android Studio : 2021.2.1.14)
+## Pasos para probar la aplicacion (version de Android Studio: 2021.2.1.14)
 
 #### Creamos un proyecto en Firebase: <img src=./screenshot/5_Android_3.jpg/ align="right" width="250">
 - Entramos a Firebase y creamos un nuevo proyecto con cualquier nombre ejemplo "proyecto01"
