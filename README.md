@@ -16,7 +16,7 @@
 #### Para que empezar a llenar la base de datos:
 1. En Firebase, dentro de la consola de nuestro proyecto entramos a Compilacion/Authentication/Comenzar/En Proveedores de Acceso/seleccionamos Correo electronico y contraseña/en la siguiente pagina damos check a "Correo electronico y contraseña"/Guardar. ya podemos agregar usuarios.
 2. En Authentication/Users/Agregar usuario/colocamos un correo y contraseña no tienen que ser válidas/Agregar usuario.
-3. Crearemos la base de datos: Firebase/Realtime Database/Crear una base de datos/Siguiente/Comenzar en modo de prueba/Habilitar. Al inicio en Realtime Database aparecerá una URL, la copiamos. Luego nos vamos a Firebase/cambiamos la vista a "Project"/MyAplicacion/app/google-service-json/dentro de "project_info" agregamos el campo: "Firebase_url": "URL", y aca remplazamos URL por la que copiamos.
+3. Crearemos la base de datos: Firebase/Realtime Database/Crear una base de datos/Siguiente/Comenzar en modo de prueba/Habilitar. Al inicio en Realtime Database aparecerá una URL, la copiamos. Luego nos vamos a Android Studio/cambiamos la vista a "Project"/MyAplicacion/app/google-service-json/dentro de "project_info" agregamos el campo: "Firebase_url": "URL", y aca remplazamos URL por la que copiamos.
 4. Volvemos a sincronizar el projecto: File/Sync Project with Gradle Files/esperamos que acabe.
 5. Ejecutamos la aplicacion en el emulador, nos logeamos en la aplicacion con el usuario creado, y podemos 
   empezar a registrar los calzados.
