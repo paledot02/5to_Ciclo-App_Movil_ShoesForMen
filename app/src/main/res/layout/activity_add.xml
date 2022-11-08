@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".AddActivity">
+
+    <include layout="@layout/action_bar_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="35dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marca: "
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/txt_add_marca"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Marca del calzado"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="17dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modelo: "
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/txt_add_modelo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Modelo del calzado"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="17dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talla: "
+                    android:textSize="20dp"
+                    />
+                <EditText
+                    android:id="@+id/txt_add_talla"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="talla del calzado"
+                    android:backgroundTint="@color/calzado_claro2"
+                    android:background="@drawable/rounded_button"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="17dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio: "
+                    android:textSize="20dp"
+                    />
+                <EditText
+                    android:id="@+id/txt_add_precio"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="costo del calzado"
+                    android:backgroundTint="@color/calzado_claro2"
+                    android:background="@drawable/rounded_button"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="17dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="URL [ Imagen ]: "
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/txt_add_url"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="URL de la imagen"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="17dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion: "
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/txt_add_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="descripcion del calzado"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/calzado_oscuro"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

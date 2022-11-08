@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".DetailActivity">
+
+    <include layout="@layout/action_bar_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button_2">
+
+                <ImageView
+                    android:id="@+id/img_detail_calzado"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/img_calzado_default"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marca: "
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_marca"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Marca del calzado "
+                android:textSize="18dp"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo: "
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_modelo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Modelo del calzado "
+                android:textSize="18dp"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talla: "
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_talla"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Talla del calzado "
+                android:textSize="18dp"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: "
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_precio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Precio del calzado "
+                android:textSize="18dp"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="URL: "
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_url"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="url de la imagen "
+                android:textSize="18dp"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripcion: "
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Descripcion del calzado "
+                android:textSize="18dp"
+                android:backgroundTint="@color/calzado_claro2"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="15dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

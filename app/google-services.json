@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892474864113",
+    "project_id": "proyecto01-59ba3",
+    "storage_bucket": "proyecto01-59ba3.appspot.com",
+    "Firebase_url": "https://proyecto01-59ba3-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892474864113:android:69cbf3efe326d6574d5450",
+        "android_client_info": {
+          "package_name": "com.paledot01.shoesformen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892474864113-krl1mij4n5h2sfi3cr4f9rhlbudokldu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paledot01.shoesformen",
+            "certificate_hash": "ac52452e76b2465da19b094bbeb90d411cdca111"
+          }
+        },
+        {
+          "client_id": "892474864113-8guvb5m67rhs30ue54tg8mk59anoks44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbiJr3nVy8-SlJrtBec8-PpFbl_zq9L7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892474864113-8guvb5m67rhs30ue54tg8mk59anoks44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
