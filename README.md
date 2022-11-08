@@ -1,6 +1,6 @@
 ## Pasos para probar la aplicacion:
 
-#### Creamos un proyecto en Firebase: <img src=./screenshot/5_Android_3.jpg/ align="right" width="300">
+#### Creamos un proyecto en Firebase: <img src=./screenshot/5_Android_3.jpg/ align="right" width="250">
 - Entramos a Firebase y creamos un nuevo proyecto con cualquier nombre ejemplo "proyecto01"
 - Dentro de tu proyecto seleccionas el icono de Android y completamos los datos:
 	1. Obtener el nombre del paquete: En Android Studio seleccionas cualquiera de los paquetes 
